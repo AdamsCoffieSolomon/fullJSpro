@@ -1,0 +1,31 @@
+body {
+    font-size: x-large;
+    text-align: start;
+    left: 40px;
+    width: 30%;
+    text-shadow: 1px 3px 2px rgb(193, 3, 3);
+}
+
+@media screen and (max-width:520px) {
+    body {
+        font-size: x-large;
+        text-align: start;
+        left: 40px;
+        width: 100%;
+        text-shadow: 1px 3px 2px rgb(193, 3, 3);
+    }
+}
+
+hr {
+    box-shadow: 3px 1px blue;
+}
+
+input {
+    font-size: large;
+    text-shadow: 1px 2px 1px rgb(239, 7, 239);
+    box-shadow: 2px 3px red;
+}
+
+.p {
+    display: flex;
+}
